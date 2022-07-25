@@ -19,8 +19,8 @@ func thirdMax(nums []int) int {
 			second = nums[i]
 		} else if nums[i] > third {
 			third = nums[i]
-		}>
-	}o
+		}
+	}
 	if second <= 0 || third <= 0 {
 		return max
 	}
